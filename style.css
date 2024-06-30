@@ -1,0 +1,62 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* BODY */
+body {
+  background-color: #e4e9ff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* HEADER, MAIN AND FOOTER */
+header,
+main,
+footer {
+  padding: 1rem 4rem;
+  width: 70%;
+}
+
+/* HEADER */
+header {
+  background-color: #b07eec;
+  color: #fff9ff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* MAIN */
+main {
+  background-color: #fff9ff;
+  color: #85879b;
+}
+
+/* FOOTER */
+footer {
+  background-color: #b07eec;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link:active,
+.link:hover,
+.link:visited {
+  text-decoration: underline;
+  color: purple;
+}
