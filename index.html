@@ -8,38 +8,56 @@
     <title>HNG 11 Stage One</title>
   </head>
   <body>
+    <div class="slackProfile">
+      <img
+        src="./images/slackDisplayPicture.jpg"
+        data-testid="slackProfilePicture"
+        alt="Slack Display Picture"
+      />
+      <div class="slackDetails">
+        <h3 data-testid="slackDisplayName">Master Chief</h3>
+        <p data-testid="slackEmail">oyetimehin31@gmail.com</p>
+        <h3 data-testid="currentDay"></h3>
+        <p data-testid="currentTimeUTC"></p>
+      </div>
+    </div>
     <header>My goals for the next 2 years in the tech field</header>
     <main>
       <ul>
         <li>
-          Expand my skill set: Move from being a frontend developer to a
-          full-stack developer by learning backend technologies like Node.js,
-          Express, and databases such as MongoDB and SQL.
+          Expand skills to become a full-stack developer with Node.js, Express,
+          MongoDB, and SQL.
         </li>
         <li>
-          Master cloud platforms: Get hands-on experience with AWS and Azure to
-          understand how to deploy and manage applications in the cloud.
+          Gain hands-on experience with AWS and Azure for cloud application
+          deployment.
         </li>
         <li>
-          Contribute to open-source: Participate in open-source projects to gain
-          practical experience and connect with the developer community.
+          Contribute to open-source projects to gain experience and connect with
+          developers.
         </li>
         <li>
-          Achieve certifications: Earn relevant certifications in full-stack
-          development and cloud computing to validate my skills and enhance my
-          professional profile.
+          Earn certifications in full-stack development and cloud computing.
         </li>
         <li>
-          Networking: Engage with fellow developers through meetups,
-          conferences, and online forums to learn from their experiences and
-          expand my professional network.
+          Network with developers through meetups, conferences, and online
+          forums.
         </li>
       </ul>
     </main>
     <footer>
-      <a href="http://hng.tech/learn" class="link">Hng learn</a>
-      <a href="http://keyword.dog/" class="link">Keyword</a>
-      <a href="http://scrapeanyweb.site/" class="link">Scrape any web</a>
+      <a href="http://hng.tech/learn" class="link" data-testid="hngLink"
+        >Hng learn</a
+      >
+      <a href="http://keyword.dog/" class="link" data-testid="keywordLink"
+        >Keyword</a
+      >
+      <a
+        href="http://scrapeanyweb.site/"
+        class="link"
+        data-testid="scrapeanywebLink"
+        >Scrape any web</a
+      >
     </footer>
     <script src="./main.js"></script>
   </body>
