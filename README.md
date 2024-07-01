@@ -1,7 +1,9 @@
 # HNG11_stageOne
 
-# Task: Frontend Single-Page
+# Task: Build your personal website
 
-Objective: Develop and host a web page using HTML, CSS and JS that showcases specific personal and real-time data attributes. Each required element should have a specified data-testid attribute for easy identification and testing.
+Objective: Create and host a simple single-page website outlining your goals for the next 2 years in the tech field.
+The website should be visually appealing, mobile-friendly, and utilize HTML, CSS and JavaScript only.
+Each required element should have a specified data-testid attribute for easy identification and testing.
 
-Live Demo: https://bumblebeestage1.netlify.app/
+Live Demo: [https://hng-masterchief-stageone.netlify.app/](https://hng-masterchief-stageone.netlify.app/)

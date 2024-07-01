@@ -70,15 +70,23 @@ footer {
   flex-wrap: wrap;
 }
 
-.link {
+a[data-testid="hngLink"],
+a[data-testid="keywordLink"],
+a[data-testid="scrapeanywebLink"] {
   color: white;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.link:active,
-.link:hover,
-.link:visited {
+a[data-testid="hngLink"]:active,
+a[data-testid="hngLink"]:hover,
+a[data-testid="hngLink"]:visited,
+a[data-testid="keywordLink"]:active,
+a[data-testid="keywordLink"]:hover,
+a[data-testid="keywordLink"]:visited,
+a[data-testid="scrapeanywebLink"]:active,
+a[data-testid="scrapeanywebLink"]:hover,
+a[data-testid="scrapeanywebLink"]:visited {
   text-decoration: underline;
   color: purple;
 }
@@ -97,11 +105,13 @@ footer {
 @media (max-width: 490px) {
   /* Screens below 490px */
   body,
-  p {
+  p[data-testid="slackEmail"],
+  p[data-testid="currentTimeUTC"] {
     font-size: 0.8rem;
   }
   header,
-  h3 {
+  h3[data-testid="slackDisplayName"],
+  h3[data-testid="currentDay"] {
     font-size: 0.9rem;
   }
   header,
