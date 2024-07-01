@@ -104,4 +104,9 @@ footer {
   h3 {
     font-size: 0.9rem;
   }
+  header,
+  main,
+  footer {
+    padding: 0.5rem 2.5rem;
+  }
 }
