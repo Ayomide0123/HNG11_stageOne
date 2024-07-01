@@ -94,3 +94,14 @@ footer {
     width: 100%;
   }
 }
+@media (max-width: 490px) {
+  /* Screens below 490px */
+  body,
+  p {
+    font-size: 0.8rem;
+  }
+  header,
+  h3 {
+    font-size: 0.9rem;
+  }
+}
